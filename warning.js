@@ -3,7 +3,7 @@ warningjs.prev_onload = null;
 
 warningjs.css = '\
 .warningjs_container { background: #f5aca6; border-width: 0px 4px 4px 4px; border-style: solid; border-color: #dd2222; color: #222222; position: absolute; top: 0; left: 8px; right: 8px; max-width: 1000px; margin: auto; padding: 16px; font: 300 16px/1.5 Lato, "Helvetica Neue", Helvetica, arial, sans-serif; z-index: 4000; }\
-.warningjs_container * { margin: 0; padding: 0; font-weight: 200; }\
+.warningjs_container * { margin: 0; padding: 0; font-weight: 400; }\
 .warningjs_hidden { display: none; }\
 .warningjs_container:hover .warningjs_hidden { display: block; }\
 .warningjs_wrapper { position: relative; }\
