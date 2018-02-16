@@ -8,6 +8,7 @@ warningjs.css = '\
 .warningjs_container:hover .warningjs_hidden { display: block; }\
 .warningjs_wrapper { position: relative; }\
 .warningjs_wrapper hr { border: 0; height: 1px; background: #dd2222; margin: 16px 32px; background-image: linear-gradient(to right, #f5aca6, #dd2222, #f5aca6); }\
+.warningjs_wrapper a { color: #003388; text-decoration: none; }\
 .warningjs_wrapper h1 { font-size: 1.9em; }\
 .warningjs_wrapper h2 { font-size: 1.5em; }\
 .warningjs_wrapper small { font-size: 0.8em; }\
@@ -52,7 +53,11 @@ warningjs.createElement = function(type, text, class_name) {
 warningjs.destroy = function() {
    var warningjs_dom = document.getElementsByClassName('warningjs_container')[0];
    warningjs_dom.parentNode.removeChild(warningjs_dom);
-   document.cookie = "warningjs=false";
+   var now = new Date();
+   var time = now.getTime();
+   var expireTime = time + 24 * 60 * 60 * 1000;
+   now.setTime(expireTime);
+   document.cookie = 'warningjs=false;expires='+now.toGMTString()+';path=/';
    return false;
 }
 
