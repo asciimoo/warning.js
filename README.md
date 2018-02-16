@@ -22,11 +22,10 @@ Simply download `warning.js` from the repo and include it in your project's HTML
 
 ## Motivation
 
-JavaScript is the biggest attack surface in the world of web. Our best weapon against these attacks and tracking is turning JavaScript off.
-Many sites don't respect security/privacy and encourage their users to activate JavaScript, so we need a tool to fight back.
+Warning.js aims to raise awareness about the possible harms of using JavaScript.
 
-Warning.js aims to educate users about possible harms of using JavaScript.
-
+JavaScript is the biggest threat to the security and privacy of users. JavaScript enables devastating security exploits and most invasive tracking of our browsing behaviour. Our best weapon against most of these attacks and tracking is turning JavaScript off and to demand sites to provide functional alternatives not requiring JavaScript -  also called [graceful degradation](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement).
+Most sites don't respect their users security/privacy and require their users to enable JavaScript, we want to show that it is not necessary and that requiring JavaScript is not in the interest of the users - it is really only the interest of the websites. Deploying warning.js demonstrates proudly that it is possible and respectful towards the visitors to not require JavaScript.
 
 ## Recommended tools
 
