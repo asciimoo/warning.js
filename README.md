@@ -1,4 +1,6 @@
-# ![Warning.js Logo](docs/images/warningjs_logo.png | height=100) Warning.js
+# Warning.js
+
+![Warning.js Logo](docs/images/warningjs_logo.png | height=200)
 
 Warning.js is a tiny JavaScript library which promotes JavaScript-free browsing and warns users with JavaScript enabled browsers.
 
