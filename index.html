@@ -6,8 +6,10 @@
 <style>
 body { font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 1.2em; color: #444444; }
 #wrapper { margin: auto; max-width: 1000px; padding: 8px; }
-noscript div { background-color: #33DD88; text-align: center; padding: 16px; border: 1px solid #33AA66; border-radius: 8px; }
+noscript div { background-color: #33DD88; text-align: center; padding: 16px; border: 1px solid #33AA66; border-radius: 8px; max-width: 1000px; }
 h1 img { max-height: 3em; vertical-align: middle; }
+pre { background: #F4F4F4; white-space: pre-wrap; padding: 8px; }
+a { text-decoration: none; }
 </style>
     </head>
 <body>
@@ -20,13 +22,25 @@ h1 img { max-height: 3em; vertical-align: middle; }
         <p>Toggle JavaScript to see it in action.</p>
         <h2>Usage</h2>
 
-        Include <code>Warning.js</code> in your project's HTML code:
+        <p>Include <code>Warning.js</code> in your project's HTML code:</p>
         <pre> &lt;script type="text/javascript" src="warning.js" charset="utf-8"&gt;&lt;/script&gt;</pre>
         <h2>Download</h2>
         <ul>
             <li><a href="warning.js">warning.js latest</a></li>
             <li><a href="dist/warning-0.1.0.min.js">warning.min.js v0.1.0</a></li>
         </ul>
+        <h2>Motivation</h2>
+
+        <p>JavaScript is the biggest attack surface in the world of web. Our best weapon against these attacks and tracking is turning JavaScript off. Many sites don't respect security/privacy and encourage their users to activate JavaScript, so we need a tool to fight back.</p>
+        <p>Warning.js aims to educate users about possible harms of using JavaScript.</p>
+
+        <h2>Recommended tools</h2>
+
+        <div>For Firefox: <a href="http://noscript.org/">NoScript</a></div>
+        <div>For Chrome/Chromium: <a href="https://chrome.google.com/webstore/detail/quick-javascript-switcher/geddoclleiomckbhadiaipdggiiccfje">Quick JavaScript Switcher</a></div>
+        <div>For Safari: <a href="http://jsblocker.toggleable.com/">JSBlocker</a></div>
+
+        <h2><a href="https://github.com/asciimoo/warning.js/">Source Code</a></h2>
     </div>
 </body>
 </html>
