@@ -8,8 +8,11 @@ warningjs.css = '\
 .warningjs_container:hover .warningjs_hidden { display: block; }\
 .warningjs_wrapper { position: relative; }\
 .warningjs_wrapper hr { border: 0; height: 1px; background: #dd2222; margin: 16px 32px; background-image: linear-gradient(to right, #f5aca6, #dd2222, #f5aca6); }\
+.warningjs_wrapper h1 { font-size: 1.9em; }\
+.warningjs_wrapper h2 { font-size: 1.5em; }\
+.warningjs_wrapper small { font-size: 0.8em; }\
 .warningjs_center { text-align: center; }\
-.warningjs_topspace { margin-top: 16px; }\
+.warningjs_topspace { margin-top: 8px; }\
 .warningjs_close { float: right; transform: rotate(45deg); }\
 .warningjs_close a { text-decoration: none; color: #333333; font-weight: bold; padding: 2px; font-size: 1.4em; }\
 .warningjs_li { margin-left: 8px; }\
