@@ -13,3 +13,4 @@ Simply download `warning.js` from the repo and include it in your project's HTML
 <script type="text/javascript" src="warning.js" charset="utf-8"></script>
 ```
 
+## [Demo](https://asciimoo.github.io/warning.js/)
