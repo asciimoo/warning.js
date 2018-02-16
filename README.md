@@ -18,3 +18,25 @@ Simply download `warning.js` from the repo and include it in your project's HTML
 ```
 
 ## [Demo](https://asciimoo.github.io/warning.js/)
+
+
+## Motivation
+
+JavaScript is the biggest attack surface in the world of web. Our best weapon against these attacks and tracking is turning JavaScript off.
+Many sites don't respect security/privacy and encourage their users to activate JavaScript, so we need a tool to fight back.
+
+Warning.js aims to educate users about possible harms of using JavaScript.
+
+
+## Recommended tools
+
+ - For Firefox: http://noscript.org/
+ - For Chrome/Chromium: https://chrome.google.com/webstore/detail/quick-javascript-switcher/geddoclleiomckbhadiaipdggiiccfje
+ - For Safari: http://jsblocker.toggleable.com/
+
+
+## Related articles and projects
+
+ - http://www.insanitybit.com/2013/06/16/why-you-should-use-noscript/
+ - https://github.com/IAIK/rowhammerjs
+ - https://www.makeuseof.com/tag/3-ways-javascript-can-used-breach-privacy-security/
