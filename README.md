@@ -2,7 +2,7 @@
 
 Warning.js is a tiny JavaScript library which promotes JavaScript-free browsing and warns users with JavaScript enabled browsers.
 
-This project inspired by all the `<noscript>` tags asking us to enable JavaScript.
+This project was inspired by all the `<noscript>` tags asking us to enable JavaScript.
 
 
 ## Installation & Usage
