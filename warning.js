@@ -24,13 +24,13 @@ warningjs.content = [
    ['small', "(while widely deployed it raises a exquisite assortment of security and privacy issues. Most of the sites don't even work anymore without JavaScript :/ )", 'warningjs_center'],
    'hr',
    ['h2', "We are psyched to tell you, NOT on this site, here you don't need no stinking JavaScript!!!!1! *", ''],
-   ['p', "You can access all functions and content without any JavaScript, you can use noscript, and be sure, this is a site that respects its visitors. **", ''],
+   ['p', 'You can access all functions and content without any JavaScript, you can use <a href="http://noscript.org/" alt="NoScript">NoScript</a>, and be sure, this is a site that respects its visitors. **', ''],
    'hr',
    ['h2', "Choose your next action"],
    ['div', 'Go get <a href="https://noscript.net/">noscript</a>.', 'warningjs_li'],
    ['div', 'I know how to <a href="http://www.alanwood.net/demos/enabling-javascript.html">disable js</a> and reload this page.', 'warningjs_li'],
    ['div', 'I\'m a geek I love js!!!! <a href="https://www.ctrlc.hu/~stef/blog/posts/gtfoomb.html">Why do you hate "freedom"?</a>', 'warningjs_li'],
-   ['div', "Great initiative, let me deploy <a href='warning.js'>warning.js</a> on my own sites!", 'warningjs_li'],
+   ['div', 'Great initiative, let me deploy <a href="https://github.com/asciimoo/warning.js">Warning.js</a> on my own sites!', 'warningjs_li'],
    ['div', 'Hmmm, I thought I had noscript, why the hell doesn\'t it <a href="https://noscript.net/faq">work</a>?', 'warningjs_li'],
    ['div', '<a href="#" onclick="warningjs_destroy();">Close</a> and continue using JavaScript.', 'warningjs_li'],
    ['p', "with regards,", 'warningjs_topspace'],
@@ -78,7 +78,7 @@ warningjs.init = function() {
    var warningjs_wrapper = warningjs.createElement('div', '', 'warningjs_wrapper');
    warningjs_div.appendChild(warningjs_wrapper);
    warningjs_wrapper.appendChild(warningjs.createElement('div', '<a href="#" onclick="warningjs.destroy()" alt="close">+</a>', 'warningjs_close'));
-   warningjs_wrapper.appendChild(warningjs.createElement('h1', 'WARNING! Your are using javascript! WARNING!', 'warningjs_center'));
+   warningjs_wrapper.appendChild(warningjs.createElement('h1', 'WARNING! Your are using JavaScript! WARNING!', 'warningjs_center'));
 
    for(i in warningjs.content) {
       var c = warningjs.content[i];
