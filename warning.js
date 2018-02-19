@@ -78,7 +78,7 @@ warningjs.init = function() {
    var warningjs_wrapper = warningjs.createElement('div', '', 'warningjs_wrapper');
    warningjs_div.appendChild(warningjs_wrapper);
    warningjs_wrapper.appendChild(warningjs.createElement('div', '<a href="#" onclick="warningjs.destroy()" alt="close">+</a>', 'warningjs_close'));
-   warningjs_wrapper.appendChild(warningjs.createElement('h1', 'WARNING! Your are using JavaScript! WARNING!', 'warningjs_center'));
+   warningjs_wrapper.appendChild(warningjs.createElement('h1', 'WARNING! You are using JavaScript! WARNING!', 'warningjs_center'));
 
    for(i in warningjs.content) {
       var c = warningjs.content[i];
