@@ -32,7 +32,7 @@ warningjs.content = [
    ['div', 'I\'m a geek I love js!!!! <a href="https://www.ctrlc.hu/~stef/blog/posts/gtfoomb.html">Why do you hate "freedom"?</a>', 'warningjs_li'],
    ['div', 'Great initiative, let me deploy <a href="https://github.com/asciimoo/warning.js">Warning.js</a> on my own sites!', 'warningjs_li'],
    ['div', 'Hmmm, I thought I had noscript, why the hell doesn\'t it <a href="https://noscript.net/faq">work</a>?', 'warningjs_li'],
-   ['div', '<a href="#" onclick="warningjs_destroy();">Close</a> and continue using JavaScript.', 'warningjs_li'],
+   ['div', '<a href="#" onclick="warningjs.destroy();">Close</a> and continue using JavaScript.', 'warningjs_li'],
    ['p', "with regards,", 'warningjs_topspace'],
    ['p', "your webmasters", ''],
    'hr',
